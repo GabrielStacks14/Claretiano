@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Assinatura - Editora Br@sil</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div id="conteudo">
+
+        <h2>Editora Br@sil</h2>
+        <h3>Cadastro de Assinatura</h3>
+
+        <form action="processar.php" method="POST">
+
+            <label>Nome completo:</label>
+            <input type="text" name="nome_assinante" required>
+
+            <label>E-mail:</label>
+            <input type="email" name="email_assinante" required>
+
+            <label>Cidade:</label>
+            <input type="text" name="cidade_assinante" required>
+
+            <label>Plano escolhido:</label>
+            <select name="plano_escolhido" required>
+                <option value="">Selecione um plano</option>
+                <option value="Mensal">Mensal</option>
+                <option value="Semestral">Semestral</option>
+                <option value="Anual">Anual</option>
+            </select>
+
+            <label>Forma de pagamento:</label>
+            <select name="forma_pagamento" required>
+                <option value="">Selecione o pagamento</option>
+                <option value="Pix">Pix</option>
+                <option value="Cartão de crédito">Cartão de crédito</option>
+                <option value="Boleto">Boleto</option>
+            </select>
+
+            <button type="submit">Cadastrar Assinatura</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
