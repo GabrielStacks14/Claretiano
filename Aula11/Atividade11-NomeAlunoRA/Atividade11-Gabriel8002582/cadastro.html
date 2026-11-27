@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Assinatura - Editora Br@sil</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+    <div id="conteudo">
+        <h2>Cadastro de Assinatura - Editora Br@sil</h2>
+
+        <p class="instrucao">
+            Preencha seus dados para realizar sua assinatura e receber seu acesso.
+        </p>
+
+        <form action="processa-cadastro.php" method="POST">
+
+            <div class="grupo-campo">
+                <label for="nome_assinante">Nome Completo:</label>
+                <input type="text" id="nome_assinante" name="nome_assinante" class="campo" placeholder="Digite seu nome completo" required>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="email_assinante">E-mail:</label>
+                <input type="email" id="email_assinante" name="email_assinante" class="campo" placeholder="Digite seu e-mail" required>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="plano_escolhido">Plano de Assinatura:</label>
+                <select id="plano_escolhido" name="plano_escolhido" class="campo" required>
+                    <option value="">Escolha seu plano...</option>
+                    <option value="Revista Semestral">Revista Semestral - R$ 59,90</option>
+                    <option value="Revista Anual">Revista Anual - R$ 99,90</option>
+                    <option value="Plano Digital VIP">Plano Digital VIP - R$ 120,00</option>
+                </select>
+            </div>
+
+            <p>
+                <input type="submit" class="botao" value="Cadastrar Assinatura">
+            </p>
+
+        </form>
+    </div>
+
+</body>
+</html>

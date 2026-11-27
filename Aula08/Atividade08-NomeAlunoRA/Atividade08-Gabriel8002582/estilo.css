@@ -1,0 +1,122 @@
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #edf2f7;
+    padding: 30px;
+    margin: 0;
+}
+
+#conteudo {
+    max-width: 480px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border: 1px solid #d5dce5;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+    color: #176b87;
+    margin-top: 0;
+    text-align: center;
+}
+
+.instrucao {
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.grupo-campo {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    color: #334155;
+}
+
+input.campo {
+    padding: 11px;
+    font-size: 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+input.campo:focus {
+    border-color: #176b87;
+}
+
+input.campo.campo-erro {
+    border-color: #e63946;
+    background-color: #fff0f0;
+}
+
+input.campo.campo-sucesso {
+    border-color: #2a9d8f;
+    background-color: #effffb;
+}
+
+.mensagem-erro {
+    color: #d62828;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+    min-height: 16px;
+}
+
+.grupo-botoes {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+input.botao {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 11px 18px;
+    border-radius: 6px;
+    border: none;
+}
+
+.botao-primario {
+    background-color: #176b87;
+    color: white;
+}
+
+.botao-secundario {
+    background-color: #dce4ec;
+    color: #334155;
+}
+
+.botao-primario:hover {
+    background-color: #12536a;
+}
+
+.botao-secundario:hover {
+    background-color: #c4d0dc;
+}
+
+.status-box {
+    display: none;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.status-box.sucesso {
+    display: block;
+    background-color: #d8f3dc;
+    color: #237a43;
+    border: 1px solid #95d5a5;
+}

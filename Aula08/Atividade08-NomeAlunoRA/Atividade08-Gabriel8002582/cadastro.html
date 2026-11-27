@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Portal Mundo Digital</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+
+    <div id="conteudo">
+        <h2>Cadastro de Usuário</h2>
+
+        <p class="instrucao">
+            Preencha os campos abaixo para realizar seu cadastro no portal.
+        </p>
+
+        <form id="formAtividade" action="">
+
+            <div class="grupo-campo">
+                <label for="txtNome">Nome:</label>
+                <input type="text" id="txtNome" class="campo" placeholder="Informe seu nome">
+                <span id="erroNome" class="mensagem-erro"></span>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="txtEmail">E-mail:</label>
+                <input type="text" id="txtEmail" class="campo" placeholder="seunome@email.com">
+                <span id="erroEmail" class="mensagem-erro"></span>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="txtSenha">Criar senha:</label>
+                <input type="password" id="txtSenha" class="campo" placeholder="Digite uma senha">
+                <span id="erroSenha" class="mensagem-erro"></span>
+            </div>
+
+            <div class="grupo-botoes">
+                <input type="button" class="botao botao-primario" value="Cadastrar" onclick="validarAtividade()">
+                <input type="button" class="botao botao-secundario" value="Apagar" onclick="limparCampos()">
+            </div>
+
+            <div id="mensagemSucesso" class="status-box"></div>
+
+        </form>
+    </div>
+
+</body>
+</html>

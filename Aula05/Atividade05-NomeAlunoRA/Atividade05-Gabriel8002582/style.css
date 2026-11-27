@@ -1,0 +1,40 @@
+
+
+body {
+    background-color: #e8f5e9;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #1b5e20;
+    text-align: center;
+}
+
+.destaque {
+    color: #388e3c;
+    font-size: 18px;
+    text-align: center;
+}
+
+#menu-principal {
+    background-color: #2e7d32;
+    padding: 10px;
+}
+
+#menu-principal ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#menu-principal a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu-principal a:hover {
+    color: yellow;
+}
