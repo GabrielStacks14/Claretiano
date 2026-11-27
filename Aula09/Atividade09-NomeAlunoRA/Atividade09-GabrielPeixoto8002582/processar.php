@@ -3,7 +3,7 @@
 /* ==========================================================================
    Atividade de Laboratório 09 - O Primeiro Back-End da Editora Br@sil
    Aluno(a): [Preencha seu Nome Completo]
-   RA: [Preencha seu RA]
+   RA: [Preencha seu R]
    ========================================================================== */
 
 // PASSO 1 - Recebendo os dados do formulário

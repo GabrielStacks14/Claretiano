@@ -14,7 +14,7 @@
         <h2>Comprovante de Assinatura - Editora Br@sil</h2>
         <hr>
 
-        <!-- PASSO 3: Exibindo o protocolo -->
+        <!-- PASSO 3: Exibindo o protocolo 2-->
 
         <div class="protocolo-destaque">
             Protocolo de Atendimento:
